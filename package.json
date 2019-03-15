@@ -1,0 +1,33 @@
+{
+  "name": "curso_pwa",
+  "version": "1.0.0",
+  "description": "curso treinaweb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingridrauany/curso_pwa.git"
+  },
+  "keywords": [
+    "curso",
+    "pwa"
+  ],
+  "author": "ingrid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingridrauany/curso_pwa/issues"
+  },
+  "homepage": "https://github.com/ingridrauany/curso_pwa#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "webpack": "^4.29.6"
+  },
+  "dependencies": {
+    "web-push": "^3.3.3"
+  }
+}
